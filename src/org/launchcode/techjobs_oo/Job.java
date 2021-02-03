@@ -34,7 +34,6 @@ public class Job {
             this.coreCompetency = coreCompetency;
     }
 
-
     // TODO: Add getters for each field EXCEPT nextId. Add setters for each field EXCEPT nextID
     //  and id.
 
