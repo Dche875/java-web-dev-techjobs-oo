@@ -102,15 +102,15 @@ public class Job {
 
 
     public String toString() {
-        if (getName() == null) {
+        if (getName() == "") {
             return "ID: " + id + "\n" + "Name: " + "Data not available" + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + positionType + "\n" + "Core Competency: " + coreCompetency;
-        } else if (getEmployer().getValue() == null) {
+        } else if (getEmployer().getValue() == "") {
             return "ID: " + id + "\n" + "Name: " + name + "\n" + "Employer: " + "Data not available" + "\n" + "Location: " + location + "\n" + "Position Type: " + positionType + "\n" + "Core Competency: " + coreCompetency;
-        } else if (getLocation().getValue() == null) {
+        } else if (getLocation().getValue() == "") {
             return "ID: " + id + "\n" + "Name: " + name + "\n" + "Employer: " + employer + "\n" + "Location: " + "Data not available" + "\n" + "Position Type: " + positionType + "\n" + "Core Competency: " + coreCompetency;
-        } else if (getPositionType().getValue() == null) {
+        } else if (getPositionType().getValue() == "") {
             return "ID: " + id + "\n" + "Name: " + name + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + "Data not available" + "\n" + "Core Competency: " + coreCompetency;
-        } else if (getcoreCompetency().getValue() == null) {
+        } else if (getcoreCompetency().getValue() == "") {
             return "ID: " + id + "\n" + "Name: " + name + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + positionType + "\n" + "Core Competency: " + "Data not available";
         } else {
             return "ID: " + id + "\n" + "Name: " + name + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + positionType + "\n" + "Core Competency: " + coreCompetency;
