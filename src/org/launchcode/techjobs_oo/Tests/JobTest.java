@@ -62,6 +62,12 @@ public class JobTest {
                 "Position Type: " + test_job4.getPositionType() + "\n" +
                 "Core Competency: " + test_job4.getcoreCompetency(), test_job4.toString());
     }
+
+    @Test
+    public void testForToStringBonus() {
+        Job test_job_bonus = new Job("", new Employer(""), new Location(""), new PositionType(""), new CoreCompetency(""));
+        assertEquals("OOPS! This job does not seem to exist.", test_job_bonus.toString());
+    }
 }
 
 

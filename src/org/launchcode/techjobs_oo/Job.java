@@ -102,7 +102,9 @@ public class Job {
 
 
     public String toString() {
-        if (getName() == "") {
+        if (getName() == "" && getEmployer().getValue() == "" && getLocation().getValue() == "" && getPositionType().getValue() == "" && getcoreCompetency().getValue() == "") {
+            return "OOPS! This job does not seem to exist.";
+        }else if (getName() == "") {
             return "ID: " + id + "\n" + "Name: " + "Data not available" + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + positionType + "\n" + "Core Competency: " + coreCompetency;
         } else if (getEmployer().getValue() == "") {
             return "ID: " + id + "\n" + "Name: " + name + "\n" + "Employer: " + "Data not available" + "\n" + "Location: " + location + "\n" + "Position Type: " + positionType + "\n" + "Core Competency: " + coreCompetency;
