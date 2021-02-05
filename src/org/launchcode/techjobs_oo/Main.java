@@ -26,6 +26,19 @@ public class Main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //public class Main {
 //    public static void main(String[] args) {
 //        Job job1 = new Job("Software Developer", new Employer("Bayer"), new Location("Arizona"), new PositionType("IT"), new CoreCompetency(null));
@@ -35,11 +48,6 @@ public class Main {
 //    }
 //}
 
-
-
-
-
-
 //public class Main{
 //    public static void main(String[] args) {
 //        Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
@@ -47,22 +55,15 @@ public class Main {
 //    }
 //}
 
-
-
 //public class Main {
 //    public static void main(String[] args) {
 //        Job test_job = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
 //        Job test_job2 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
 //
-//
 //        System.out.println(test_job.getId());
 //        System.out.println(test_job2.getId());
-//
 //    }
 //}
-
-
-
 
 //public class Main {
 //    public static void main(String[] args) {
@@ -86,18 +87,12 @@ public class Main {
 
 // returns ACME
 
-
-
-
-
-
 //public class Main {
 //    public static void main(String[] args) {
 //        Employer o = new Employer();
 //        System.out.println(o instanceof Employer);
 //    }
 // returns true
-
 
 //    public static void main(String[] args) {
 //        Job job1 = new Job();
