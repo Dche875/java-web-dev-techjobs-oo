@@ -3,6 +3,24 @@ package org.launchcode.techjobs_oo;
 import java.util.ArrayList;
 import org.launchcode.techjobs_oo.*;
 
+public class Main {
+    public static void main(String[] args) {
+        Job job1 = new Job("Software Developer", new Employer("Bayer"), new Location("Arizona"), new PositionType("IT"), new CoreCompetency(null));
+        Job job2 = new Job(null, new Employer(null), new Location(null), new PositionType(null), new CoreCompetency(null));
+        System.out.println(job1.toString() + "\n");
+        System.out.println(job2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 //public class Main {
 //
@@ -31,7 +49,12 @@ import org.launchcode.techjobs_oo.*;
 
 
 
-
+//public class Main{
+//    public static void main(String[] args) {
+//        Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+//        System.out.println(job1.toString());
+//    }
+//}
 
 
 
@@ -46,8 +69,6 @@ import org.launchcode.techjobs_oo.*;
 //
 //    }
 //}
-
-
 
 
 
